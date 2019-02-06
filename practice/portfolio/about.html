@@ -15,9 +15,10 @@ in html
         <meta char="utf-8" />
         <title> Ana Santos: Personal Website </title>
         <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     </head>
 <!-- closing head -->
-
+    <h1> Ana Santos </h1>
     <!-- This is the body -->
     <!-- This is where we place the content of our website -->
     <body>
@@ -31,18 +32,34 @@ in html
             <a href="contact.html">Contact</a>
         </nav>
         <br /><br />
-        <main>
-            <figure id="me">
-                <img src="img/ana_santos.PNG" alt="Picture of Ana Santos" />
-            </figure>
-                <div id="welcomeText">
-                    Hello! <br />
-                    <p>Thank you for visiting my professional portfolio website.</p>
-                    <p>I am a Software Engineer and have recently hired at the Acme Corporation</p>
-                    <em>"With ordinary talent and extraordinary <strong>perseverance</strong>, all things are attainable"</em><br />
-                    - Thomas F. Buxton
-                </div>
-        </main>
+        <div id="content">
+            <table>
+                <tr id="table-header">
+                    <td><strong>Programming Language</strong></td>
+                    <td><strong>Level</strong></td>
+                </tr>
+                <tr class="table-row">
+                    <td>C++</td>
+                    <td>Proficient</td>
+                </tr>
+                <tr class="table-row">
+                    <td>Python</td>
+                    <td>Intermediate</td>
+                </tr>
+                <tr class="table-row">
+                    <td>Java</td>
+                    <td>Beginner</td>
+                </tr>
+                <tr class="table-row">
+                    <td>HTML/CSS</td>
+                    <td>Beginner</td>
+                </tr>
+            </table>
+            <ul>
+                <li><span class="hobby">Community</span>: I like bringing exposure to computer science in my community.</li>
+                <li><span class="hobby">Education</span>: I really enjoy tutoring students on computer science topics.</li>
+            </ul>
+        </div>
         
         <!-- This is the footer -->
         <!-- The footer goes inside the body but not always -->
