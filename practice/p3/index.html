@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="styles.css" rel="stylesheet" type="text/css" />
+        <title> Slot Machine </title>
+        <script
+          src="https://code.jquery.com/jquery-3.3.1.min.js"
+          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+          crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <h1> Slot Machine </h1>
+        <div class="clicker">
+            <button class="play" type="button"> Play! </button>
+        </div>
+        <div class="imgs" >
+            <div id="image0"></div>
+            <div id="image1"></div>
+            <div id="image2"></div>
+        </div>
+        <div class="message">
+            <p id="result"></p>
+            <p id="prize"></p>
+            <p id="winnings"></p>
+        </div>
+        
+        
+        <script>
+            /* global $ */
+            let imageArray = ["cherry", "grapes", "seven"];
+            let indices = [0, 0, 0];
+            var result = document.querySelector('#result');
+            var prize = document.querySelector('#prize');
+            var totalWinnings = document.querySelector('#winnings');
+            var amount = 0;
+            
+            $(".play").click( function(){
+            for(var i = 0; i < imageArray.length; i++) {
+                let randomIndex = Math.floor(Math.random() * 3);
+                let randomImage = imageArray[randomIndex];
+                indices[i] = randomIndex;
+                $("#image" + i ).html("<img src='img/"+randomImage+".png'/>");
+            }
+            if(indices[0] === indices[1] && indices[0] === indices[2]){
+                result.innerHTML = 'Jackpot!';
+                prize.innerHTML = 'You won $500';
+                amount += 500;
+                totalWinnings.innerHTML = 'Total Winnings: $' + amount;
+            }
+            
+            });
+        </script>
+    </body>
+</html>

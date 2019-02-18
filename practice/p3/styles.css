@@ -1,0 +1,24 @@
+.imgs {
+    display: flex;
+    justify-content: center;
+}
+
+.play {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+
+}
+
+.clicker {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.message {
+    text-align:center;
+}
+
