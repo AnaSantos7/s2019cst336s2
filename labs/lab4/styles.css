@@ -34,3 +34,15 @@ body{
 #submit:hover{
 	background-color: #3a8;
 }
+
+#results {
+	font-size: 35px;
+}
+
+.grade {
+	float:right;
+}
+#msg {
+	font-size: 35px;
+	color: #00e6ac
+}
