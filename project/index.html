@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pet Generator </title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <!--Bootstrap files-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div id="container">
+         <h1> Pet Generator </h1>
+        
+          <div class="userinput">
+           <label> First Name  </label>
+           <input type="text" name="firstName" value="" />
+          </div>
+          
+          <div class="userinput">
+           <label> Last Name  </label>
+           <input type="text" name="lastName" value="" />
+          </div>
+          
+          <div class="userinput">
+           <label> Email </label>   
+           <input type="text" name="email" value="" />
+          </div>
+          
+          <div class="userinput">
+           <label> Gender </label>
+           <input type="radio" name="gender" value="m"/> Male
+           <input type="radio" name="gender" value="f" /> Female    
+          </div>
+          
+          <div class="userinput">
+           <label>City </label>
+           <select name="city">
+            <option value="1">Salinas</option>
+            <option value="2">Seaside</option>
+            <option value="3"> Monterey </option>
+            <option value="4"> King City</option>
+            <option value="5"> Greenfield</option>
+            <option value="6"> Watsonville</option>
+           </select>
+          </div>
+           <div class="userinput">
+           <label> Interests </label>    
+           <input type="checkbox"/> Nature
+           <input type="checkbox" /> Traveling
+           <input type="checkbox"/> Videogames
+           <input type="checkbox"/> Mindfulness
+          </div>
+  
+          <div class="userinput">
+           <label> Activeness</label>
+           <input type="radio" name="active" value="veryActive"/> High Activity
+           <input type="radio" name="active" value="active" /> Moderate    
+           <input type="radio" name="active" value="sedentary"/> Sedentary
+          </div>
+          
+          <div class="userinput">
+           <label>Comments </label>
+           <textarea name="comments" palceholder="Search here" rows="7" cols="40"></textarea>
+          </div>
+          
+          <div style="text-align:center">
+           <input type="submit" class="sampleBtn"/>   
+          </div>
+           <div id="results"></div>
+          
+         </form>
+         
+         </div>
+         
+        </body>
+        <script>
+            var resultsContainer = document.getElementById('results');
+            var submitButton = document.getElementById('sampleBtn');
+    		submitButton.onclick = function(){
+    		var active = document.getElementsByName("active");
+    		var selectedLevel;
+    		
+    		for(var i = 0; i < active.length; i++) {
+               if(active[i].checked)
+                   selectedLevel = active[i].value;
+             }
+
+    		 if(selectedLevel == "veryActive")
+		        resultsContainer.innerHTML = 'These pets would be good for you: Siberian Husky, Labrador Retriever, Border Collies';
+		      else if(selectedLevel == "active")
+		         resultsContainer.innerHTML = 'These pets would be good for you: English Bulldog, Basset Hound, Cavalier King Charles Spaniel';
+		      else if(selectedLevel == "sedentary")
+		        resultsContainer.innerHTML = "These pets would be good match for you: cockatiel, guinea pig, cat, budgie, cornsnake";
+		        
+	    };
+        </script>
+
+</html>
+
+</html>

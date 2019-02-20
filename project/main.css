@@ -1,0 +1,70 @@
+body{
+
+   background: lightgray;
+   margin: 0 auto;
+   font-family: arial;
+    
+  }
+
+h1{
+
+ color: #80aaff;
+ text-align: center;
+}
+label{
+
+   color: #777;
+   width: 10%;
+   display: inline-block;
+
+  }
+
+#container{
+
+ padding: 20px;
+ width: 60%;
+ margin: 0 auto;
+ margin-top: 1%;
+ margin-bottom: 1%;
+ background-color: white;
+}
+
+ .userinput{
+
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 30px;
+
+ }
+ label{
+
+  color: #80aaff;
+  font-size: 20 px;
+ }
+
+ textarea{
+  color: #80aaff;
+  font-size: 20 px;
+ }
+
+ select{
+
+    color: #80aaff;
+ }
+
+ .sampleBtn{
+    
+   background-color: #f1f1f1;
+   width: 20%;
+   height: 35px;
+   font-size: 20px;
+
+ }
+ .sampleBtn:hover{
+
+    color: white;
+    background-color: #80aaff;
+    cursor: pointer;
+ }
