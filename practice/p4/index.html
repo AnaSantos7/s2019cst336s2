@@ -1,0 +1,132 @@
+<html>
+<head>
+    <title>Shopping Cart</title>
+    <script
+          src="https://code.jquery.com/jquery-3.3.1.min.js"
+          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+          crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1> Spring Break Shopping  </h1>
+
+    <table border = "1">
+    <tr>
+        <th>Product</th>
+        <th>Unit <br> Price</th>
+        <th> Quantity </th>
+        <th>Total</th>
+    </tr>
+    <tr>
+        <td>Microfiber Beach Towel</td>
+        <td>$30</td>
+        <td><input id="quant1" type="text" size="5"></td>
+        <td id="tot1"></td>
+    </tr>
+
+   <tr>
+        <td>Sunscreen 100SPF, 120ml</td>
+        <td>$10</td>
+        <td><input id="quant2" type="text" size="5"></td>
+        <td id="tot2"></td>
+    </tr>    
+    
+    <tr>
+        <td>Ipanema Flip-flop Sandals </td>
+        <td>$20</td>
+        <td><input id="quant3" type="text" size="5"></td>
+        <td id="tot3"></td>
+    </tr>
+
+   <tr>
+        <td>Shipping</td>
+        <td></td>
+        <td></td>
+        <td id="shipping"></td>
+    </tr>    
+        
+    <tr>
+        <td>Subtotal</td>
+        <td></td>
+        <td></td>
+        <td id="subtotal"></td>
+    </tr>             
+        
+    <tr>
+        <td>Tax (10%)</td>
+        <td></td>
+        <td></td>
+        <td id="tax"></td>
+    </tr>
+    
+    <tr>
+        <td>Total</td>
+        <td></td>
+        <td></td>
+        <td id="total"></td>
+    </tr>
+       
+    </table>
+    
+    <h3>Shipping & Handling</h3>
+    <select id="shipping2">
+        <option value=0.00>Select one</option>
+        <option value=15.00>Next-day Delivery: $15.00</option>
+        <option value=10.00>Three-day Delivery: $10.00</option>
+        <option value=5.00>Regular (5-8 days): $ 5.00</option>
+    </select>
+    <br><br>
+        
+    <span>I accept the terms of this purchase.</span>
+    <br> 
+    
+    <button>CONFIRM PURCHASE</button>
+    <script>
+        var quantity1 = 0;
+        var quantity2 = 0;
+        var quantity3 = 0;
+        var shipTotal = 0;
+        var finalSubTotal = 0;
+        var finalTax = 0;
+        var finalTotal = 0;
+        
+        $("#quant1").change(function() {
+            console.log(parseFloat($("#quant1").val() * 30));
+            quantity1 = parseFloat($("#quant1").val() * 30);
+            console.log("Value of var1: ");
+            console.log(quantity1);
+            $("#tot1").html("$" + quantity1);
+        });
+        
+        $("#quant2").change(function() {
+            console.log(parseFloat($("#quant2").val() * 10));
+            quantity2 = parseFloat($("#quant2").val() * 10);
+            console.log("Value of var2: ");
+            console.log(quantity2);
+            $("#tot2").html("$" + quantity2);
+        });
+        
+         $("#quant3").change(function() {
+            console.log(parseFloat($("#quant3").val() * 20));
+            quantity3 = parseFloat($("#quant3").val() * 20);
+            console.log("Value of var3: ");
+            console.log(quantity3)
+            $("#tot3").html("$" + quantity3);
+            
+        });
+        
+        $("#shipping2").change(function() {
+            console.log(parseFloat($("#shipping2").val()));
+            shipTotal = parseFloat($("#shipping2").val());
+            $("#shipping").html("$" + shipTotal);
+            finalSubTotal = quantity1 + quantity2 + quantity3 + shipTotal;
+            $("#subtotal").html("$" + finalSubTotal);
+            finalTax = (finalSubTotal * .10);
+            $("#tax").html("$" + finalTax);
+            finalTotal = finalSubTotal + finalTax;
+            $("#total").html("$" + finalTotal);
+            
+        });
+    </script>
+</body>
+</html>
