@@ -1,0 +1,68 @@
+<html>
+<head>
+    <title>Shopping Cart</title>
+    <script
+          src="https://code.jquery.com/jquery-3.3.1.min.js"
+          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+          crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <table border = "1">
+   <tr>
+       <th>Product</th>
+       <th>Unit <br> Price</th>
+       <th> Quantity </th>
+       <th>Total</th>
+   </tr>
+   <tr>
+       <td id="randProduct">Prod name</td>
+       <td id="price"></td>
+       <td id="quant1"></td>
+       <td id="tot1"></td>
+   </tr>
+
+  <tr>
+       <td>Discount</td>
+       <td></td>
+       <td id = "quant2"></td>
+       <td id="tot2"></td>
+   </tr>
+
+   <tr>
+       <td>Subtotal</td>
+       <td></td>
+       <td></td>
+       <td id="subtotal"></td>
+   </tr>
+
+   <tr>
+       <td>Tax (10%)</td>
+       <td></td>
+       <td></td>
+       <td id="tax"></td>
+   </tr>
+
+   <tr>
+       <td>Total</td>
+       <td></td>
+       <td></td>
+       <td id="total"></td>
+   </tr>
+
+   </table>
+    <script>
+     $.ajax({
+     type:"get",
+     url: "getAll.php",
+     data: {},
+     success: function(data) {
+        console.log(data);
+        $("#randProduct").html(data.product);
+     },
+     complete: function(data, status){
+     }
+     });
+     </script>
+</body>
+</html>

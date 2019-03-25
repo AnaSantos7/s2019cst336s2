@@ -1,0 +1,90 @@
+[26-Feb-2019 00:43:26 UTC] PHP Parse error:  syntax error, unexpected '++' (T_INC), expecting ')' in /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php on line 10
+[26-Feb-2019 00:44:13 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php on line 11
+[26-Feb-2019 00:44:13 UTC] PHP Stack trace:
+[26-Feb-2019 00:44:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php:0
+[26-Feb-2019 00:44:13 UTC] PHP   2. rand() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php:11
+[26-Feb-2019 00:44:13 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php on line 11
+[26-Feb-2019 00:44:13 UTC] PHP Stack trace:
+[26-Feb-2019 00:44:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php:0
+[26-Feb-2019 00:44:13 UTC] PHP   2. rand() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php:11
+[26-Feb-2019 00:44:13 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php on line 11
+[26-Feb-2019 00:44:13 UTC] PHP Stack trace:
+[26-Feb-2019 00:44:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php:0
+[26-Feb-2019 00:44:13 UTC] PHP   2. rand() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php:11
+[26-Feb-2019 00:44:13 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php on line 11
+[26-Feb-2019 00:44:13 UTC] PHP Stack trace:
+[26-Feb-2019 00:44:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php:0
+[26-Feb-2019 00:44:13 UTC] PHP   2. rand() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php:11
+[26-Feb-2019 00:44:13 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php on line 11
+[26-Feb-2019 00:44:13 UTC] PHP Stack trace:
+[26-Feb-2019 00:44:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php:0
+[26-Feb-2019 00:44:13 UTC] PHP   2. rand() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php:11
+[26-Feb-2019 00:44:13 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php on line 11
+[26-Feb-2019 00:44:13 UTC] PHP Stack trace:
+[26-Feb-2019 00:44:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php:0
+[26-Feb-2019 00:44:13 UTC] PHP   2. rand() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php:11
+[26-Feb-2019 00:44:13 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php on line 11
+[26-Feb-2019 00:44:13 UTC] PHP Stack trace:
+[26-Feb-2019 00:44:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php:0
+[26-Feb-2019 00:44:13 UTC] PHP   2. rand() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php:11
+[26-Feb-2019 00:44:13 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php on line 11
+[26-Feb-2019 00:44:13 UTC] PHP Stack trace:
+[26-Feb-2019 00:44:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php:0
+[26-Feb-2019 00:44:13 UTC] PHP   2. rand() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php:11
+[26-Feb-2019 00:44:13 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php on line 11
+[26-Feb-2019 00:44:13 UTC] PHP Stack trace:
+[26-Feb-2019 00:44:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php:0
+[26-Feb-2019 00:44:13 UTC] PHP   2. rand() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php:11
+[26-Feb-2019 00:46:50 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php on line 11
+[26-Feb-2019 00:46:50 UTC] PHP Stack trace:
+[26-Feb-2019 00:46:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php:0
+[26-Feb-2019 00:46:50 UTC] PHP   2. rand() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php:11
+[26-Feb-2019 00:46:50 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php on line 11
+[26-Feb-2019 00:46:50 UTC] PHP Stack trace:
+[26-Feb-2019 00:46:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php:0
+[26-Feb-2019 00:46:50 UTC] PHP   2. rand() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php:11
+[26-Feb-2019 00:46:50 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php on line 11
+[26-Feb-2019 00:46:50 UTC] PHP Stack trace:
+[26-Feb-2019 00:46:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php:0
+[26-Feb-2019 00:46:50 UTC] PHP   2. rand() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php:11
+[26-Feb-2019 00:46:50 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php on line 11
+[26-Feb-2019 00:46:50 UTC] PHP Stack trace:
+[26-Feb-2019 00:46:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php:0
+[26-Feb-2019 00:46:50 UTC] PHP   2. rand() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php:11
+[26-Feb-2019 00:46:50 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php on line 11
+[26-Feb-2019 00:46:50 UTC] PHP Stack trace:
+[26-Feb-2019 00:46:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php:0
+[26-Feb-2019 00:46:50 UTC] PHP   2. rand() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php:11
+[26-Feb-2019 00:46:50 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php on line 11
+[26-Feb-2019 00:46:50 UTC] PHP Stack trace:
+[26-Feb-2019 00:46:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php:0
+[26-Feb-2019 00:46:50 UTC] PHP   2. rand() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php:11
+[26-Feb-2019 00:46:50 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php on line 11
+[26-Feb-2019 00:46:50 UTC] PHP Stack trace:
+[26-Feb-2019 00:46:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php:0
+[26-Feb-2019 00:46:50 UTC] PHP   2. rand() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php:11
+[26-Feb-2019 00:46:50 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php on line 11
+[26-Feb-2019 00:46:50 UTC] PHP Stack trace:
+[26-Feb-2019 00:46:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php:0
+[26-Feb-2019 00:46:50 UTC] PHP   2. rand() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php:11
+[26-Feb-2019 00:46:50 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php on line 11
+[26-Feb-2019 00:46:50 UTC] PHP Stack trace:
+[26-Feb-2019 00:46:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php:0
+[26-Feb-2019 00:46:50 UTC] PHP   2. rand() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php:11
+[26-Feb-2019 00:53:37 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/.c9/s2019cst336s2/practice/php/basic.php on line 21
+[25-Mar-2019 20:15:33 UTC] PHP Fatal error:  Undefined class constant 'FETCH_ASSO' in /home/ubuntu/workspace/.c9/s2019cst336s2/practice/midterm_review/connect.php on line 13
+[25-Mar-2019 20:15:33 UTC] PHP Stack trace:
+[25-Mar-2019 20:15:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/midterm_review/getAll.php:0
+[25-Mar-2019 20:15:33 UTC] PHP   2. getDBConnection() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/midterm_review/getAll.php:4
+[25-Mar-2019 20:15:46 UTC] PHP Fatal error:  Undefined class constant 'FETCH_ASSO' in /home/ubuntu/workspace/.c9/s2019cst336s2/practice/midterm_review/connect.php on line 13
+[25-Mar-2019 20:15:46 UTC] PHP Stack trace:
+[25-Mar-2019 20:15:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/midterm_review/getAll.php:0
+[25-Mar-2019 20:15:46 UTC] PHP   2. getDBConnection() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/midterm_review/getAll.php:4
+[25-Mar-2019 20:18:56 UTC] PHP Fatal error:  Undefined class constant 'FETCH_ASSO' in /home/ubuntu/workspace/.c9/s2019cst336s2/practice/midterm_review/connect.php on line 13
+[25-Mar-2019 20:18:56 UTC] PHP Stack trace:
+[25-Mar-2019 20:18:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/midterm_review/getAll.php:0
+[25-Mar-2019 20:18:56 UTC] PHP   2. getDBConnection() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/midterm_review/getAll.php:4
+[25-Mar-2019 20:19:07 UTC] PHP Fatal error:  Undefined class constant 'FETCH_ASSO' in /home/ubuntu/workspace/.c9/s2019cst336s2/practice/midterm_review/connect.php on line 13
+[25-Mar-2019 20:19:07 UTC] PHP Stack trace:
+[25-Mar-2019 20:19:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/midterm_review/getAll.php:0
+[25-Mar-2019 20:19:07 UTC] PHP   2. getDBConnection() /home/ubuntu/workspace/.c9/s2019cst336s2/practice/midterm_review/getAll.php:4

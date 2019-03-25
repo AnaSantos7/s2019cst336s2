@@ -80,7 +80,7 @@
     <span>I accept the terms of this purchase.</span>
     <br> 
     
-    <button>CONFIRM PURCHASE</button>
+    <button id="confirmed">CONFIRM PURCHASE</button>
     <script>
         var quantity1 = 0;
         var quantity2 = 0;
@@ -127,6 +127,11 @@
             $("#total").html("$" + finalTotal);
             
         });
+        
+        // $("#confirmed").click(function(){
+        //     if(!$("#shipping2").is(':selected') )
+
+        // });
     </script>
 </body>
 </html>
