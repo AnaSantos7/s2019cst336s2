@@ -1,0 +1,110 @@
+<html>
+<head>
+    <title>Shopping Cart</title>
+    <script
+          src="https://code.jquery.com/jquery-3.3.1.min.js"
+          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+          crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1> Discount Shopping!  </h1>
+
+    <table border = "1">
+    <tr>
+        <th>Product</th>
+        <th>Unit <br> Price</th>
+        <th> Quantity </th>
+        <th>Total</th>
+    </tr>
+    <tr>
+        <td id="randProduct">Prod name</td>
+        <td id="price"></td>
+        <td id="quant1"></td>
+        <td id="tot1"></td>
+    </tr>
+
+   <tr>
+        <td>Discount</td>
+        <td></td>
+        <td id = "quant2"></td>
+        <td id="tot2"></td>
+    </tr>    
+    
+    <tr>
+        <td>Subtotal</td>
+        <td></td>
+        <td></td>
+        <td id="subtotal"></td>
+    </tr>             
+        
+    <tr>
+        <td>Tax (10%)</td>
+        <td></td>
+        <td></td>
+        <td id="tax"></td>
+    </tr>
+    
+    <tr>
+        <td>Total</td>
+        <td></td>
+        <td></td>
+        <td id="total"></td>
+    </tr>
+       
+    </table>
+   <br></br>
+    <div>
+        Promo Code:<input type="text" name="promo" id ="promos"/>    
+    </div>
+    
+    <script>
+        var productTotal = 0;
+        
+    	$.ajax({
+        type: "get",
+        url:  "api/getRandomProduct.php",
+        dataType: "json",
+       //   <----AS THE VALUE, ENTER THE YOUTUBE VIDEO ID
+        
+        success: function(data,status) {
+            // console.log(data);
+             $("#randProduct").html(data.product);
+             $("#quant1").html(data.quantity);
+             $("#price").html(data.price);
+             $("#tot1").html(data.price * data.quantity);
+          },
+          complete: function(data,status) { 
+              //alert(status);
+          }
+              
+         });
+         $("#promos").on("input",function(){
+             console.log($("#promos").val())
+             $.ajax({
+            type: "GET",
+            url:  "api/applyPromoCode.php",
+            dataType: "json",
+            data: { "": "",
+            },  //   <----AS THE VALUE, ENTER THE YOUTUBE VIDEO ID
+            
+            success: function(data,status) {
+                for(i in data){
+                    console.log(i);
+                    if($("#promos").val() === i){
+                        $("#quant2").html(data[i]);
+                    }
+                }
+              },
+              complete: function(data,status) { 
+                  //alert(status);
+              }
+              
+         });
+             
+         })
+    	
+        
+    </script>
+</body>
+</html>

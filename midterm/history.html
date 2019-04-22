@@ -1,0 +1,87 @@
+<html>
+<head>
+    <title>History @ Cinder</title>
+    <script
+          src="https://code.jquery.com/jquery-3.3.1.min.js"
+          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+          crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+            <a href="match.html">Match</a>
+            <a href="history.html">History</a>
+        </nav>
+        <br /><br />
+    <header>
+            <h1> History </h1>
+    </header>
+        
+      <table border = "1">
+   <tr>
+       <th></th>
+       <th>Username</th>
+       <th> Status</th>
+       <th>When</th>
+       <?php echo $dataRow;?>
+   </tr>
+   
+
+  <tr>
+       <td>Username</td>
+       <td></td>
+       
+   </tr>
+
+   <tr>
+       <td>Status</td>
+       <td></td>
+       <td></td>
+       
+   </tr>
+
+   <tr>
+       <td>When</td>
+       <td></td>
+       <td></td>
+       
+   </tr>
+
+   <tr>
+       <td>Total</td>
+       <td></td>
+       <td></td>
+       
+   </tr>
+
+   </table>
+    <script>
+    $(document).ready(function(){
+
+     $.ajax({
+     type:"get",
+     url: "getAll.php",
+     dataType:"json",
+     data: {},
+     success: function(data) {
+        for(i in data){
+            console.log(data[i]["picture_url"]);
+            console.log(data[i]["username"]);
+        }
+    //     var trHTML = '';
+                
+    //     $.each(data[i]["picture_url"], function (i, item) {
+            
+    //         trHTML += '<tr><td>' + data[i]["picture_url"][i] + '</td><td>' + data[i]["picture_url"][i] + '</td></tr>';
+    //     });
+        
+    //     $('#location').append(trHTML);
+     },
+     complete: function(data, status){
+     }
+     });
+
+});
+     </script>
+</body>
+</html>

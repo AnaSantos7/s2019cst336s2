@@ -1,0 +1,56 @@
+[27-Mar-2019 23:45:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'midterm'' in /home/ubuntu/workspace/.c9/s2019cst336s2/midterm/connect.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/.c9/s2019cst336s2/midterm/connect.php(17): PDO->__construct('mysql:host=loca...', 'asantos0', '', Array)
+#1 /home/ubuntu/workspace/.c9/s2019cst336s2/midterm/getAll.php(4): getDBConnection('midterm')
+#2 {main}
+  thrown in /home/ubuntu/workspace/.c9/s2019cst336s2/midterm/connect.php on line 17
+[27-Mar-2019 23:45:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'midterm'' in /home/ubuntu/workspace/.c9/s2019cst336s2/midterm/connect.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/.c9/s2019cst336s2/midterm/connect.php(17): PDO->__construct('mysql:host=loca...', 'asantos0', '', Array)
+#1 /home/ubuntu/workspace/.c9/s2019cst336s2/midterm/getAll.php(4): getDBConnection('midterm')
+#2 {main}
+  thrown in /home/ubuntu/workspace/.c9/s2019cst336s2/midterm/connect.php on line 17
+[27-Mar-2019 23:46:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'midterm'' in /home/ubuntu/workspace/.c9/s2019cst336s2/midterm/connect.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/.c9/s2019cst336s2/midterm/connect.php(17): PDO->__construct('mysql:host=loca...', 'asantos0', '', Array)
+#1 /home/ubuntu/workspace/.c9/s2019cst336s2/midterm/getAll.php(4): getDBConnection('midterm')
+#2 {main}
+  thrown in /home/ubuntu/workspace/.c9/s2019cst336s2/midterm/connect.php on line 17
+[27-Mar-2019 23:48:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'midterm'' in /home/ubuntu/workspace/.c9/s2019cst336s2/midterm/connect.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/.c9/s2019cst336s2/midterm/connect.php(17): PDO->__construct('mysql:host=loca...', 'asantos0', '', Array)
+#1 /home/ubuntu/workspace/.c9/s2019cst336s2/midterm/getAll.php(4): getDBConnection('midterm')
+#2 {main}
+  thrown in /home/ubuntu/workspace/.c9/s2019cst336s2/midterm/connect.php on line 17
+[27-Mar-2019 23:48:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'midterm'' in /home/ubuntu/workspace/.c9/s2019cst336s2/midterm/connect.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/.c9/s2019cst336s2/midterm/connect.php(17): PDO->__construct('mysql:host=loca...', 'asantos0', '', Array)
+#1 /home/ubuntu/workspace/.c9/s2019cst336s2/midterm/getAll.php(4): getDBConnection('cinder')
+#2 {main}
+  thrown in /home/ubuntu/workspace/.c9/s2019cst336s2/midterm/connect.php on line 17
+[27-Mar-2019 23:49:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'midterm'' in /home/ubuntu/workspace/.c9/s2019cst336s2/midterm/connect.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/.c9/s2019cst336s2/midterm/connect.php(17): PDO->__construct('mysql:host=loca...', 'asantos0', '', Array)
+#1 /home/ubuntu/workspace/.c9/s2019cst336s2/midterm/getAll.php(4): getDBConnection('cinder')
+#2 {main}
+  thrown in /home/ubuntu/workspace/.c9/s2019cst336s2/midterm/connect.php on line 17
+[04-Apr-2019 00:22:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'jahenderson'@'localhost' (using password: NO)' in /home/ubuntu/workspace/.c9/s2019cst336s2/dashboard/login.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/.c9/s2019cst336s2/dashboard/login.php(34): PDO->__construct('mysql:host=127....', 'jahenderson', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/.c9/s2019cst336s2/dashboard/login.php on line 34
+[04-Apr-2019 00:22:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'jahenderson'@'localhost' (using password: NO)' in /home/ubuntu/workspace/.c9/s2019cst336s2/dashboard/login.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/.c9/s2019cst336s2/dashboard/login.php(34): PDO->__construct('mysql:host=127....', 'jahenderson', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/.c9/s2019cst336s2/dashboard/login.php on line 34
+[04-Apr-2019 00:22:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'jahenderson'@'localhost' (using password: NO)' in /home/ubuntu/workspace/.c9/s2019cst336s2/dashboard/login.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/.c9/s2019cst336s2/dashboard/login.php(34): PDO->__construct('mysql:host=127....', 'jahenderson', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/.c9/s2019cst336s2/dashboard/login.php on line 34
+[04-Apr-2019 00:22:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'jahenderson'@'localhost' (using password: NO)' in /home/ubuntu/workspace/.c9/s2019cst336s2/dashboard/login.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/.c9/s2019cst336s2/dashboard/login.php(34): PDO->__construct('mysql:host=127....', 'jahenderson', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/.c9/s2019cst336s2/dashboard/login.php on line 34

@@ -55,10 +55,17 @@
      $.ajax({
      type:"get",
      url: "getAll.php",
+     dataType:"json",
      data: {},
      success: function(data) {
         console.log(data);
-        $("#randProduct").html(data.product);
+        $("#randProduct").html(data[Math.floor(Math.random() * 10)]['productName'])
+        
+        // for(i in data){
+        //     var key = data[i];
+        //     console.log(key['productName']);
+            
+        // }
      },
      complete: function(data, status){
      }

@@ -1,8 +1,8 @@
 <?php
 include "./connect.php";
 
-$db= getDBConnection("midterm_practice");
-$query="select * from mp_product";
+$db= getDBConnection("cinder");
+$query="select * from user";
 $statement = $db->prepare($query);
 $statement -> execute();
 
