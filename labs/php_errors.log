@@ -1,0 +1,32 @@
+[24-Apr-2019 19:07:41 UTC] PHP Parse error:  syntax error, unexpected 'curl_close' (T_STRING) in /home/ubuntu/workspace/.c9/s2019cst336s2/labs/lab8/pixabay.php on line 18
+[24-Apr-2019 19:08:03 UTC] PHP Parse error:  syntax error, unexpected 'curl_close' (T_STRING) in /home/ubuntu/workspace/.c9/s2019cst336s2/labs/lab8/pixabay.php on line 18
+[24-Apr-2019 19:36:50 UTC] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/ubuntu/workspace/.c9/s2019cst336s2/labs/lab8/pixabay.php on line 25
+[24-Apr-2019 19:36:50 UTC] PHP Stack trace:
+[24-Apr-2019 19:36:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/.c9/s2019cst336s2/labs/lab8/pixabay.php:0
+[24-Apr-2019 20:31:38 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ubuntu/workspace/.c9/s2019cst336s2/labs/lab8/pixabay.php on line 25
+[24-Apr-2019 20:31:39 UTC] PHP Stack trace:
+[24-Apr-2019 20:31:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/.c9/s2019cst336s2/labs/lab8/pixabay.php:0
+[24-Apr-2019 20:32:08 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ubuntu/workspace/.c9/s2019cst336s2/labs/lab8/pixabay.php on line 25
+[24-Apr-2019 20:32:08 UTC] PHP Stack trace:
+[24-Apr-2019 20:32:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/.c9/s2019cst336s2/labs/lab8/pixabay.php:0
+[24-Apr-2019 20:32:19 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ubuntu/workspace/.c9/s2019cst336s2/labs/lab8/pixabay.php on line 25
+[24-Apr-2019 20:32:19 UTC] PHP Stack trace:
+[24-Apr-2019 20:32:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/.c9/s2019cst336s2/labs/lab8/pixabay.php:0
+[24-Apr-2019 20:32:56 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ubuntu/workspace/.c9/s2019cst336s2/labs/lab8/pixabay.php on line 25
+[24-Apr-2019 20:32:56 UTC] PHP Stack trace:
+[24-Apr-2019 20:32:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/.c9/s2019cst336s2/labs/lab8/pixabay.php:0
+[24-Apr-2019 20:33:06 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ubuntu/workspace/.c9/s2019cst336s2/labs/lab8/pixabay.php on line 25
+[24-Apr-2019 20:33:06 UTC] PHP Stack trace:
+[24-Apr-2019 20:33:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/.c9/s2019cst336s2/labs/lab8/pixabay.php:0
+[24-Apr-2019 20:33:23 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ubuntu/workspace/.c9/s2019cst336s2/labs/lab8/pixabay.php on line 25
+[24-Apr-2019 20:33:23 UTC] PHP Stack trace:
+[24-Apr-2019 20:33:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/.c9/s2019cst336s2/labs/lab8/pixabay.php:0
+[24-Apr-2019 20:33:44 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ubuntu/workspace/.c9/s2019cst336s2/labs/lab8/pixabay.php on line 25
+[24-Apr-2019 20:33:44 UTC] PHP Stack trace:
+[24-Apr-2019 20:33:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/.c9/s2019cst336s2/labs/lab8/pixabay.php:0
+[24-Apr-2019 20:34:23 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ubuntu/workspace/.c9/s2019cst336s2/labs/lab8/pixabay.php on line 25
+[24-Apr-2019 20:34:23 UTC] PHP Stack trace:
+[24-Apr-2019 20:34:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/.c9/s2019cst336s2/labs/lab8/pixabay.php:0
+[24-Apr-2019 20:34:48 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ubuntu/workspace/.c9/s2019cst336s2/labs/lab8/pixabay.php on line 25
+[24-Apr-2019 20:34:48 UTC] PHP Stack trace:
+[24-Apr-2019 20:34:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/.c9/s2019cst336s2/labs/lab8/pixabay.php:0

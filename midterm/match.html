@@ -1,60 +1,58 @@
 <html>
+
 <head>
     <title>Match @ Cinder</title>
-    <script
-          src="https://code.jquery.com/jquery-3.3.1.min.js"
-          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-          crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <nav>
-            <a href="match.html">Match</a>
-            <a href="history.html">History</a>
-        </nav>
-        <br /><br />
+        <a href="match.html">Match</a>
+        <a href="history.html">History</a>
+    </nav>
+    <br /><br />
     <header>
-            <h1> Match </h1>
-            
+        <h1> Match </h1>
+
     </header>
-    <img id="my_image"  alt="img" >
-        <h3 id= "username"></h3>
-    <p id = "info"></p>
-  <div style = "display: flex;">
-    <button id="like">
+    <img id="my_image" alt="img">
+    <h3 id="username"></h3>
+    <p id="info"></p>
+    <div style="display: flex;">
+        <button id="like">
     <img src="img/like.png" alt="Like button" width="35" />
   </button>
-  <div style = "display: flex;">
-    <button id="unsure">
+        <div style="display: flex;">
+            <button id="unsure">
     <img src="img/question.png" alt="Question button" width="35" />
   </button>
-  
-    <button id="dislike">
+
+            <button id="dislike">
     <img src="img/dislike.png" alt="DisLike button" width="35" />
     
   </button>
-    <script>
-     $.ajax({
-     type:"get",
-     url: "getAll.php",
-     dataType:"json",
-     data: {},
-     success: function(data) {
-        //console.log(data);
-        for(i in data){
-            console.log(data[i]["picture_url"]);
-            console.log(data[i]["username"]);
-        }
-        $("#username").html(data[i]["username"]);
-        $("#info").html( data[i]["about_me"]);
-        $("#my_image").attr("src",data[i]['picture_url']);
-//         $(".dislike").on("click", function() {
+            <script>
+                $.ajax({
+                    type: "get",
+                    url: "getAll.php",
+                    dataType: "json",
+                    data: {},
+                    success: function(data) {
+                        //console.log(data);
+                        for (i in data) {
+                            console.log(data[i]["picture_url"]);
+                            console.log(data[i]["username"]);
+                        }
+                        $("#username").html(data[i]["username"]);
+                        $("#info").html(data[i]["about_me"]);
+                        $("#my_image").attr("src", data[i]['picture_url']);
+                        //         $(".dislike").on("click", function() {
 
-// });
-     },
-     complete: function(data, status){
-     }
-     });
-     </script>
+                        // });
+                    },
+                    complete: function(data, status) {}
+                });
+            </script>
 </body>
+
 </html>

@@ -1,18 +1,54 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Image Gallery</title>
-        <link rel="stylesheet" href="css/normalize.css">
-        <!--Bootstrap files-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <title></title>
+        <link href="styles.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <script
+              src="https://code.jquery.com/jquery-3.3.1.min.js"
+              integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+              crossorigin="anonymous">
+        </script>
     </head>
     <body>
+        <div class="wrap">
+       <div class="search">
+          <input type="text" class="searchTerm" placeholder="What are you looking for?">
+          <button id="search" type="submit" class="searchButton">
+            <i class="fa fa-search"></i>
+         </button>
+       </div>
+    </div>
+    <br>
+    <br>
+
         <div class="row">
-            <div class="column"></div>
-            <div class="column"></div>
-            <div class="column"></div>
-        </div>     
+      <div class="column">
+        <img id="img1" style="width:100%">
+      </div>
+      <div class="column">
+        <img id="img2" style="width:100%">
+      </div>
+      <div class="column">
+        <img id="img3" style="width:100%">
+      </div>
+    </div>
+        <script>
+            
+            $.ajax({
+                type: "get",
+                url:  "pixabay.php",
+                dataType: "json",
+              
+                success: function(data,status) {
+                    console.log(data["largeImageURL"]);
+                    $("#search").click( function (){
+                        $("#img1").attr("src", data["largeImageURL"]);
+            });
+                },
+                  complete: function(data,status) { 
+                }
+            });
+        </script>
     </body>
 </html>
